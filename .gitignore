@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment
+.env
+*.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Model artifacts
+rootfiles/*.pkl
+rootfiles/*.keras
+
+# Jupyter notebook
+.ipynb_checkpoints/
+
+# Ignore virtual environments
+.venv/
+venv_flickwise/
+
+# Ignore data files (adjust if needed)
+data/
+*.csv
+
+# Ignore other unwanted files/folders
+__pycache__/
+*.pyc
+
+# Ignore logs and temp files
+*.log
+*.tmp
